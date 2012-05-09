@@ -365,7 +365,6 @@
 		37CFDEFA14B5CBCA00BF148F /* cellBackground2Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 37CFDEF714B5CBC900BF148F /* cellBackground2Selected.png */; };
 		37CFDEFE14B5CF3E00BF148F /* cellBackground2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37CFDEFC14B5CF3D00BF148F /* cellBackground2@2x.png */; };
 		37CFDEFF14B5CF3E00BF148F /* cellBackground2Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37CFDEFD14B5CF3E00BF148F /* cellBackground2Selected@2x.png */; };
-		37DBE021149F95EB00C17AF4 /* eufe.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 37DBE020149F95EB00C17AF4 /* eufe.sqlite */; };
 		37DDFD9314A2031600BCDEBB /* CharactersViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 37DDFD9114A2031600BCDEBB /* CharactersViewController.mm */; };
 		37DDFD9414A2031600BCDEBB /* CharactersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37DDFD9214A2031600BCDEBB /* CharactersViewController.xib */; };
 		37DDFD9A14A204B600BCDEBB /* CharacterEqualSkills.mm in Sources */ = {isa = PBXBuildFile; fileRef = 37DDFD9914A204B600BCDEBB /* CharacterEqualSkills.mm */; };
@@ -543,7 +542,6 @@
 		718BA567122BF21C00148015 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 718BA566122BF21C00148015 /* libsqlite3.dylib */; };
 		718BA585122BF34A00148015 /* ItemsDBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 718BA583122BF34A00148015 /* ItemsDBViewController.m */; };
 		718BA586122BF34A00148015 /* ItemsDBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 718BA584122BF34A00148015 /* ItemsDBViewController.xib */; };
-		718BA5D2122BF65200148015 /* evedb.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 718BA5D1122BF65200148015 /* evedb.sqlite */; };
 		718BC20012EF68CF002B3C04 /* UIAlertView+Error.m in Sources */ = {isa = PBXBuildFile; fileRef = 718BC1FF12EF68CF002B3C04 /* UIAlertView+Error.m */; };
 		718BEB8E137B158B00F166CD /* dps.png in Resources */ = {isa = PBXBuildFile; fileRef = 718BEB8D137B158B00F166CD /* dps.png */; };
 		718BEBB4137B1CBC00F166CD /* Gravimetric.png in Resources */ = {isa = PBXBuildFile; fileRef = 718BEBAE137B1CBC00F166CD /* Gravimetric.png */; };
@@ -574,7 +572,6 @@
 		718C68FB1300913F00C2A5A2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 718C68FA1300913F00C2A5A2 /* libz.dylib */; };
 		718C694F1300916C00C2A5A2 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718C694E1300916C00C2A5A2 /* iAd.framework */; };
 		718C69511300916C00C2A5A2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718C69501300916C00C2A5A2 /* SystemConfiguration.framework */; };
-		718C695B1300918700C2A5A2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718C695A1300918700C2A5A2 /* CoreLocation.framework */; };
 		718CBFBB12F5E6BB00CAC006 /* cellMenuBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 718CBFB912F5E6BB00CAC006 /* cellMenuBackground.png */; };
 		718CBFBC12F5E6BB00CAC006 /* cellMenuBackgroundSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 718CBFBA12F5E6BB00CAC006 /* cellMenuBackgroundSelected.png */; };
 		718CBFC012F5E6DC00CAC006 /* MainMenuCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 718CBFBF12F5E6DC00CAC006 /* MainMenuCellView.m */; };
@@ -709,6 +706,7 @@
 		71CBDC8414103E5A003A50CE /* ContractViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71CBDC8214103E5A003A50CE /* ContractViewController.xib */; };
 		71CBDC99141044D3003A50CE /* BidCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CBDC98141044D3003A50CE /* BidCellView.m */; };
 		71CBDC9B141044DB003A50CE /* BidCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71CBDC9A141044DB003A50CE /* BidCellView.xib */; };
+		AA587A16155AF645008D6DAD /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA587A15155AF645008D6DAD /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1322,7 +1320,6 @@
 		37CFDEF714B5CBC900BF148F /* cellBackground2Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellBackground2Selected.png; sourceTree = "<group>"; };
 		37CFDEFC14B5CF3D00BF148F /* cellBackground2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellBackground2@2x.png"; sourceTree = "<group>"; };
 		37CFDEFD14B5CF3E00BF148F /* cellBackground2Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellBackground2Selected@2x.png"; sourceTree = "<group>"; };
-		37DBE020149F95EB00C17AF4 /* eufe.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = eufe.sqlite; sourceTree = "<group>"; };
 		37DDFD9014A2031600BCDEBB /* CharactersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharactersViewController.h; sourceTree = "<group>"; };
 		37DDFD9114A2031600BCDEBB /* CharactersViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CharactersViewController.mm; sourceTree = "<group>"; };
 		37DDFD9214A2031600BCDEBB /* CharactersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CharactersViewController.xib; sourceTree = "<group>"; };
@@ -1563,7 +1560,6 @@
 		718BA582122BF34A00148015 /* ItemsDBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsDBViewController.h; sourceTree = "<group>"; };
 		718BA583122BF34A00148015 /* ItemsDBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsDBViewController.m; sourceTree = "<group>"; };
 		718BA584122BF34A00148015 /* ItemsDBViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemsDBViewController.xib; sourceTree = "<group>"; };
-		718BA5D1122BF65200148015 /* evedb.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = evedb.sqlite; sourceTree = "<group>"; };
 		718BC1FE12EF68CF002B3C04 /* UIAlertView+Error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Error.h"; sourceTree = "<group>"; };
 		718BC1FF12EF68CF002B3C04 /* UIAlertView+Error.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Error.m"; sourceTree = "<group>"; };
 		718BEB8D137B158B00F166CD /* dps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dps.png; sourceTree = "<group>"; };
@@ -1597,7 +1593,6 @@
 		718C68FA1300913F00C2A5A2 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		718C694E1300916C00C2A5A2 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		718C69501300916C00C2A5A2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		718C695A1300918700C2A5A2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = iphoneos4.3/System/Library/Frameworks/CoreLocation.framework; sourceTree = "<group>"; };
 		718CBFB912F5E6BB00CAC006 /* cellMenuBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellMenuBackground.png; sourceTree = "<group>"; };
 		718CBFBA12F5E6BB00CAC006 /* cellMenuBackgroundSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellMenuBackgroundSelected.png; sourceTree = "<group>"; };
 		718CBFBE12F5E6DC00CAC006 /* MainMenuCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuCellView.h; sourceTree = "<group>"; };
@@ -1774,6 +1769,7 @@
 		71CBDC98141044D3003A50CE /* BidCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BidCellView.m; sourceTree = "<group>"; };
 		71CBDC9A141044DB003A50CE /* BidCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BidCellView.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* EVEUniverse-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "EVEUniverse-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		AA587A15155AF645008D6DAD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1781,6 +1777,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA587A16155AF645008D6DAD /* MobileCoreServices.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
@@ -1797,7 +1794,6 @@
 				718C68FB1300913F00C2A5A2 /* libz.dylib in Frameworks */,
 				718C694F1300916C00C2A5A2 /* iAd.framework in Frameworks */,
 				718C69511300916C00C2A5A2 /* SystemConfiguration.framework in Frameworks */,
-				718C695B1300918700C2A5A2 /* CoreLocation.framework in Frameworks */,
 				71AC55731406E65300C44DE9 /* libGoogleAdMobAds.a in Frameworks */,
 				12BF018F140D3DCA00AD9450 /* CFNetwork.framework in Frameworks */,
 			);
@@ -2004,8 +2000,6 @@
 			children = (
 				71800EEE12EB9B2400F0B471 /* Graphics */,
 				37A815F114E2D20900C38F73 /* ImportingTutorial */,
-				718BA5D1122BF65200148015 /* evedb.sqlite */,
-				37DBE020149F95EB00C17AF4 /* eufe.sqlite */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				129284D01402A3CE00055445 /* MainWindow-iPad.xib */,
 				8D1107310486CEB800E47090 /* EVEUniverse-Info.plist */,
@@ -2033,7 +2027,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				718C695A1300918700C2A5A2 /* CoreLocation.framework */,
+				AA587A15155AF645008D6DAD /* MobileCoreServices.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
@@ -4279,7 +4273,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "EVEUniverse" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -4307,7 +4301,6 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				718BA586122BF34A00148015 /* ItemsDBViewController.xib in Resources */,
-				718BA5D2122BF65200148015 /* evedb.sqlite in Resources */,
 				71853769122E840400118181 /* MarketGroupsViewController.xib in Resources */,
 				718537FE122E90C700118181 /* ItemInfoViewController.xib in Resources */,
 				71853853122E976C00118181 /* MarketInfoViewController.xib in Resources */,
@@ -4562,7 +4555,6 @@
 				37809237141D80AB00F32F1A /* Icons in Resources */,
 				37809238141D80AB00F32F1A /* Types in Resources */,
 				3780923A141D80CD00F32F1A /* icon72x72.png in Resources */,
-				37DBE021149F95EB00C17AF4 /* eufe.sqlite in Resources */,
 				37A6718B14A0D52800D3284E /* FleetViewController.xib in Resources */,
 				37DDFD9414A2031600BCDEBB /* CharactersViewController.xib in Resources */,
 				37DDFDAB14A23AAF00BCDEBB /* CharacterCellView.xib in Resources */,
@@ -5019,7 +5011,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = EVEUniverse_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = _DEBUG;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = /Developer/Tools/boost;
 				INFOPLIST_FILE = "EVEUniverse-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -5045,7 +5038,8 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = EVEUniverse_Prefix.pch;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = /Developer/Tools/boost;
 				INFOPLIST_FILE = "EVEUniverse-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -5069,6 +5063,7 @@
 				);
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
@@ -5086,6 +5081,7 @@
 				);
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
